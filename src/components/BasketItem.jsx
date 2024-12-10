@@ -1,5 +1,5 @@
 import React from "react";
-import "../css/BasketItem.css";
+import "../css/basketItem.css";
 
 function BasketItem({ item, product }) {
   return (
