@@ -1,0 +1,72 @@
+/* .basket-container {
+  padding: 20px;
+  background-color: white;
+  border: 1px solid #ddd;
+}
+
+.basket-container h3 {
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.basket-container .total {
+  border-top: 1px solid #ddd;
+  padding-top: 10px;
+  margin-top: 10px;
+  font-size: 18;
+  font-weight: bold;
+  text-align: right;
+  color: rgb(97, 140, 34);
+}
+
+.basket-reset-btn {
+  background-color: rgb(209, 209, 209);
+  height: 40px;
+  padding: 0 20px;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+} */
+
+.basket-container {
+  padding: 20px;
+  background-color: white;
+  border: 1px solid #ddd;
+  max-width: 300px; /* Maksimum genişlik belirleyelim */
+  margin: 0 auto; /* Ortaya yerleştirmek için auto margin */
+  border-radius: 10px; /* Köşeleri yuvarlak yapalım */
+}
+
+.basket-container h3 {
+  font-size: 20px;
+  margin-bottom: 15px;
+  text-align: center; /* Başlık ortalanacak */
+}
+
+.basket-container .total {
+  border-top: 1px solid #ddd;
+  padding-top: 10px;
+  margin-top: 10px;
+  font-size: 18px; /* Yazı büyüklüğü belirlendi */
+  font-weight: bold;
+  text-align: right;
+  color: rgb(97, 140, 34);
+}
+
+.basket-reset-btn {
+  background-color: rgb(209, 209, 209);
+  height: 30px; /* Yüksekliği küçültüyoruz */
+  padding: 0 15px; /* İçerik etrafındaki boşluğu azaltıyoruz */
+  font-size: 14px; /* Yazı boyutunu küçültüyoruz */
+  font-weight: 500;
+  cursor: pointer;
+  display: inline-block; /* Blok yerine inline-block yaparak boyutu küçültüyoruz */
+  width: auto; /* Buton genişliğini içeriğe göre otomatik yapıyoruz */
+  margin-top: 20px; /* Butonla içerik arasına mesafe ekliyoruz */
+  border-radius: 5px; /* Buton köşeleri yuvarlak olsun */
+  transition: background-color 0.3s ease; /* Buton hover geçişi */
+}
+
+.basket-reset-btn:hover {
+  background-color: rgb(174, 174, 174); /* Hover efekti */
+}

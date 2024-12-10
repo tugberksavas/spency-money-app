@@ -1,0 +1,136 @@
+/* .product {
+  padding: 15px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  margin-bottom: 20px;
+  width: 24%;
+}
+
+.product img {
+  width: 100%;
+}
+
+.product h6 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.product .price {
+  font-size: 20px;
+  color: green;
+  font-weight: 500;
+}
+
+.product .actions {
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.actions button {
+  height: 40px;
+  padding: 0 15px;
+  flex: 1;
+  cursor: pointer;
+}
+
+.actions button[disabled] {
+  opacity: 0.3;
+  cursor: not-allowed;
+}
+
+.actions .buy-btn {
+  background-color: greenyellow;
+  font-size: 13px;
+  font-weight: 800;
+  border-radius: 0 4px 4px 0;
+}
+.actions .sell-btn {
+  background-color: rgb(230, 234, 223);
+  font-size: 13px;
+  font-weight: 800;
+  border-radius: 4px 0 0 4px;
+}
+
+.actions .amount {
+  width: 50px;
+  text-align: center;
+  border: 1px solid rgb(205, 203, 203);
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 17px;
+  font-weight: bold;
+} */
+
+.product {
+  padding: 15px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  margin-bottom: 20px;
+  width: 24%;
+  display: flex;
+  flex-direction: column; /* Ensure the content is stacked vertically */
+  align-items: center; /* Center the content */
+}
+
+.product img {
+  width: 100%;
+  object-fit: cover; /* Ensures the image covers the container area */
+  max-height: 200px; /* Optional: Adjust the height if needed to maintain consistency */
+}
+
+.product h6 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.product .price {
+  font-size: 20px;
+  color: green;
+  font-weight: 500;
+}
+
+.product .actions {
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.actions button {
+  height: 40px;
+  padding: 0 15px;
+  flex: 1;
+  cursor: pointer;
+}
+
+.actions button[disabled] {
+  opacity: 0.3;
+  cursor: not-allowed;
+}
+
+.actions .buy-btn {
+  background-color: greenyellow;
+  font-size: 13px;
+  font-weight: 800;
+  border-radius: 0 4px 4px 0;
+}
+.actions .sell-btn {
+  background-color: rgb(230, 234, 223);
+  font-size: 13px;
+  font-weight: 800;
+  border-radius: 4px 0 0 4px;
+}
+
+.actions .amount {
+  width: 50px;
+  text-align: center;
+  border: 1px solid rgb(205, 203, 203);
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 17px;
+  font-weight: bold;
+}
