@@ -13,7 +13,7 @@ Bu proje, Bill Gates'in harcamalarını takip edebileceğiniz bir web uygulamas�
 ## Canlı Demo
 
 Uygulamanın canlı versiyonuna şu adresten erişebilirsiniz:  
-[Canlı Demo - Bill Gates Para Harcama Uygulaması](https://your-app-url.com)
+[Canlı Demo - Bill Gates Para Harcama Uygulaması](spency-money-app.vercel.app)
 
 ## Kullanımm
 
